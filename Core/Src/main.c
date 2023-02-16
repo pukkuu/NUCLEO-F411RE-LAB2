@@ -171,7 +171,7 @@ int main(void)
 
 	  if (Time >= TimeStamp_1Hz) {
 		  Temp_Filt_1Hz = Temp.Filt;
-		  Volt_Filt_1Hz = Volt.Raw;
+		  Volt_Filt_1Hz = Volt.Filt;
 
 		  Temp_Ave_1Hz = Temp.Ave / 10.0;
 		  Volt_Ave_1Hz = Volt.Ave / 10.0;
